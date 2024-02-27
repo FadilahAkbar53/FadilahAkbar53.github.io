@@ -157,6 +157,10 @@ h2 {
   padding: 1rem;
 }
 
+.skill img:hover {
+  transform: rotateX(20%);
+}
+
 .vidio {
   height: 380px;
   text-align: center;
@@ -201,6 +205,12 @@ footer {
   text-align: center;
   background-color: #1f242d;
   color: white;
+}
+
+.box span {
+  font-style: italic;
+  font-weight: bold;
+  color: aqua;
 }
 /*FOOTER END*/
 
