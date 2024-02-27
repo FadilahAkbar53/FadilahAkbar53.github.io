@@ -146,10 +146,15 @@ h2 {
   height: 200px;
   color: white;
   margin: 0 200px;
+  display: flex;
 }
 
-.skill p {
-  text-align: center;
+.skill img {
+  width: 150px;
+  height: 150px;
+  border-radius: 30px;
+  justify-content: space-evenly;
+  padding: 1rem;
 }
 
 .vidio {
@@ -194,7 +199,8 @@ ifame {
 }
 footer {
   text-align: center;
-  background-color: blueviolet;
+  background-color: #1f242d;
+  color: white;
 }
 /*FOOTER END*/
 
