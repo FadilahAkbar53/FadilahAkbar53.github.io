@@ -1,98 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio-231524041-FadilahAkbar</title>
+    <link rel="stylesheet" href="css/stylee.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Condiment&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyek1 STr HTML 27 02 2024</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Srisakdi&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap"rel="stylesheet"/>
-</head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  </head>
 
-<body>
+  <body>
     <header>
-        <nav>
-            <div class="logo">
-                <h4>Fadilah Akbar</h4>
-            </div>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#home">profile </a></li>
-                <li><a href="#motto">Motto Hidup</a></li>
-                <li><a href="#hobi">Hobi</a></li>
-                <li><a href="#skill">Skills</a></li>
-                <li><a href="#">Lesson Learned</a></li>
-            </ul>
-            <div class="menu-toggle">
-                <input type="checkbox">
-                <span></span>
-                <span></span>
-                <span></span>   
-            </div>
-        </nav>
-    </header>
-    <main id="home">
-            <div class="image">
-                <img src="img/profil.png"/>
-                <h1>Fadilah Akbar</h1>
-            </div>
-            <div class="tentang">
-                <h2>Tentang Saya</h2>
-                <p>Hallo..Perkenalkan saya Fadilah Akbar, atau biasa di panggil Adil. Saya merupakan seorang mahasiswa tingkat 1 sedang menempuh pendidikan di Politeknik Negeri Bandung dari jurusan D4-Teknik Komputer & Informatika </p>
-            </div>
-            <div class="profilDiri">
-                <h2>Profil Diri</h2>
-                <p>Nama : Fadilah Akbar</p>
-                <p>NIM : 231524041</p>
-                <p>Tempat/Tanggal lahir : Bandung 31 Mei 2004</p>
-                <p>Jenis Kelamin : Laki-Laki</p>
-                <p>Domisili : Kota Bandung</p>
-            </div>
-           
-    </main>
-     <div class="motto" id="motto">
-        <h2>Motto Hidup</h2>
-        <p>Sukses Adalah Jumlah Dari Upaya Kecil, Yang Diulangi Hari Demi Hari</p>
-        <p>-Robert Collier-</p>
-    </div>
-
-    <div class="hobi" id="hobi">
-        <h2>Hobbi</h2>
-        <img src="img/basket.jpg" alt="">
-        <img src="img/game.jpg" alt="">
-        <img src="img/bernyanyi.jpg" alt="">
-    </div>
-    <div class="skill" id="skill">
-        <h2>Kemampuan Teknis</h2>
-        <img src="img/c.jpg" alt="">
-        <img src="img/of.jpg" alt="">
-        <img src="img/java.jpg" alt="">
-    </div>
-    <div class="vidio">
-        <h2>Video YouTube</h2>
-        <iframe width="560" height="315" src="https://www.youtube.com/watch?v=mtErTy2uZ-Q" frameborder="0" allowfullscreen></iframe>
-    </div>
-    <div class="lesson">
-        <h2>Lesson Learned</h2>
+      <nav>
+        <div class="logo">
+          <img src="img/logo.jpg" alt="#" id="home">
+          <h4 id="home">Fadilah Akbar</h4>
+        </div>
         <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#home">Profile </a></li>
+          <li><a href="#motto">Motto Hidup</a></li>
+          <li><a href="#hobi">Hobi</a></li>
+          <li><a href="#skill">Skills</a></li>
+          <li><a href="#lesson">Lesson Learned</a></li>
+          <li><a href="#scraping">Web Scraping</a></li>
+        </ul>
+        <div class="menu-toggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero section -->
+    <section>
+      <div class="section-home" id="home">
+        <div class="home">
+          <div class="tentang">
+            <h2>Tentang Saya</h2>
+            <p>
+              Hallo..Perkenalkan saya Fadilah Akbar, atau biasa di panggil Adil.
+              Saya merupakan seorang mahasiswa tingkat 1 sedang menempuh
+              pendidikan di Politeknik Negeri Bandung dari jurusan D4-Teknik
+              Komputer & Informatika
+            </p>
+          </div>
+          <div class="profil">
+            <h2>Profil Diri</h2>
+            <p>Nama : Fadilah Akbar</p>
+            <p>NIM : 231524041</p>
+            <p>Tempat/Tanggal lahir : Bandung 31 Mei 2004</p>
+            <p>Jenis Kelamin : Laki-Laki</p>
+            <p>Domisili : Kota Bandung</p>
+          </div>
+          <div class="sosial">
+            <h2>Sosial Media</h2>
+            <a href="https://github.com/fadilahAkbar53" target="_blank">
+              <i class='bx bxl-github'></i>
+            </a>
+            <a href="https://www.instagram.com/fadilahakbar_53" target="_blank">
+              <i class='bx bxl-instagram-alt' ></i>
+            </a>
+            <a href="https://api.whatsapp.com/send/?phone=085781291080&text&type=phone_number&app_absent=0" target="_blank">
+              <i class='bx bxl-whatsapp-square' ></i>
+            </a>
+          </div>
+        </div>
+        <div class="image">
+          <img src="img/profil.png" />
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION MOTTO -->
+    <section>
+      <div class="section-motto" id="motto">
+        <div class="motto-content">
+          <h2>Motto Hidup</h2>
+          <p>"Sukses Adalah Jumlah Dari Upaya Kecil, Yang Diulangi Hari Demi Hari"</p>
+          <p>-Robert Collier-</p>
+        </div>
+    </section>
+    <!-- SECTION MOTTO END -->
+
+    <!-- SECTION HOBBY -->
+    <section>
+      <div class="section-hobi" id="hobi">
+        <h2>Hobby</h2>
+        <div class="card">
+          <div class="card-content">
+            <img src="img/basket.jpg" alt="">
+            <p>basket</p>
+          </div>
+          <div class="card-content">
+            <img src="img/bernyanyi.jpg" alt="">
+            <p>Bernyanyi</p>
+          </div>
+          <div class="card-content">
+            <img src="img/game.jpg" alt="">
+            <p>Bermain Game</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SECTION HOBBY END-->
+
+    <!-- SECTION SKILLS-->
+    <section>
+      <div class="section-skill" id="skill">
+        <h2>Kemampuan Teknis</h2>
+        <div class="card">
+          <div class="card-content">
+            <img src="img/of.jpg" alt="">
+            <p>Microsoft Office</p>
+          </div>
+          <div class="card-content">
+            <img src="img/c.jpg" alt="">
+            <p>Pemograman C</p>
+          </div>
+          <div class="card-content">
+            <img src="img/java.jpg" alt="">
+            <p>Pemograman Java</p>
+          </div>
+          <div class="card-content">
+            <img src="img/web.jpeg" alt="">
+            <p>Pengembang Web</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SECTION SKILLS END -->
+
+    <!-- SECTION LESSON LEARN -->
+    <section>
+      <div class="section-lesson" id="lesson">
+        <div class="lesson-content">
+          <h2>Lesson Learn</h2>
+          <ul>
             <li>Mempelajari github menggunakan perintah-perintah dasar GitHub (membuat repositori, add, commit, push, status, dll); </li>
             <li>Mempelajari penggunaan merge branch</li>
             <li>Mempelajari cara untuk melakukan forking dari suatu repo kedalam repo milik kita sendiri</li>
         </ul>
-        
-    </div>
-    <div class="maps">
-        <h2>Google Maps</h2>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.546217106743!2d106.7831413147698!3d-6.196072995515824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f6583b5b28e9%3A0xa90268b0ad1a7555!2sMonas%2C%20Gambir%2C%20Kota%20Jakarta%20Pusat%2C%20Daerah%20Khusus%20Ibukota%20Jakarta!5e0!3m2!1sen!2sid!4v1646091579341!5m2!1sen!2sid" width="400" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-    </div>
+        </div>
+      </div>
+    </section>
+    <!-- SECTION LESSON LEARN END-->
 
-    <footer class="box">
-       <p>dibuat oleh <span>Fadilah Akbar</span></p>
-       <p>tugas Proyek 1 pada tanggal <span>27 februari 2024</span></p>
+    <!-- SECTION WEB SCRAPING -->
+    <section>
+      <div class="section-scraping" id="scraping">
+        <div class="scraping-content">
+          <h2>Web Scraping</h2>
+          <p>Tabel dibawah ini merupakan hasil dari web scraping pada website <a href="https://www.republika.co.id/">Republika.co.id</a></p>
+          <div class="pagination">
+            <label for="rowsPerPage">Tampilkan: </label>
+            <select id="rowsPerPage">
+              <option value="10">10</option>
+              <option value="25">25</option>
+              <option value="all">Semua</option>
+            </select>
+        </div>
+          <table id="news-table" border="1">
+            <thead>
+              <tr>
+                <th>No</th>
+                <th>Judul Berita</th>
+                <th>Kategori</th>
+                <th>Waktu Publish</th>
+                <th>Waktu Scraping</th>
+              </tr>
+            </thead>
+            <tbody id="news-table-body"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+    <!-- SECTION WEB SCRAPING END-->
+
+    <!-- FOOTER -->
+    <footer>
+      <h3><span>Copyright</span> Fadilah Akbar</h3>
+      <div class="sosial-footer">
+            <a href="https://github.com/fadilahAkbar53" target="_blank">
+              <i class='bx bxl-github'></i>
+            </a>
+            <a href="https://www.instagram.com/fadilahakbar_53" target="_blank">
+              <i class='bx bxl-instagram-alt' ></i>
+            </a>
+            <a href="https://api.whatsapp.com/send/?phone=085781291080&text&type=phone_number&app_absent=0" target="_blank">
+              <i class='bx bxl-whatsapp-square' ></i>
+            </a>
+          </div>
     </footer>
-</div>
-    <script src="js/main.js"></script>
-</body>
+    <!-- FOOTER END -->
 
+    <script src="js/main.js"></script>
+    <script src="js/scraping.js"></script>
+  </body>
 </html>

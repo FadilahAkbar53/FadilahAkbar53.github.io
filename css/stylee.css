@@ -1,0 +1,356 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-color-text: #ffff;
+  --main-background: #2d3250;
+  --second-background: #424769;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+  color: white;
+}
+
+h1 {
+  background-color: #2d3250;
+  border: green;
+  border-width: 5px;
+  margin: 0 50px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 4rem;
+  font-style: italic;
+  font-family: "Alex Brush", cursive;
+  letter-spacing: 4px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-decoration: 4px sandybrown underline;
+}
+
+p {
+  text-align: justify;
+  font-size: 1.4rem;
+}
+
+nav {
+  display: flex;
+  background-color: var(--main-background);
+  justify-content: space-evenly;
+  color: white;
+  height: 70px;
+  align-items: center;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4rem;
+  position: fixed;
+  width: 100%;
+  border-bottom: 5px solid white;
+  flex-direction: row;
+}
+
+nav .logo {
+  font-family: "Alex Brush", cursive;
+  font-size: 3rem;
+  letter-spacing: 3px;
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+}
+
+nav .logo img {
+  width: 50px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  width: 40%;
+  justify-content: space-between;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+  color: sandybrown;
+  border-bottom: 3px solid white;
+  transition: 0.8s ease-out;
+}
+
+/* HOME START */
+.section-home {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--main-background);
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 50px;
+  height: 100%;
+}
+
+.home {
+  width: 60%;
+  padding: 50px;
+}
+
+.tentang,
+.profil {
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.sosial i {
+  font-size: 4rem;
+  cursor: pointer;
+  border: 5px solid sandybrown;
+  padding: 7px;
+  border-radius: 50%;
+  color: white;
+}
+
+.sosial i:hover {
+  color: white;
+}
+
+/* HOME END */
+
+/* MOTTO START */
+.section-motto {
+  background-color: var(--second-background);
+  text-align: center;
+  width: 100%;
+}
+
+.motto-content {
+  border: 5px solid white;
+  padding: 50px;
+}
+.section-motto p {
+  text-align: center;
+}
+/* MOTTO END */
+
+/* HOBBY, SKILL START */
+.section-hobi {
+  background-color: var(--main-background);
+  padding-top: 50px;
+}
+
+.section-skill {
+  padding-top: 50px;
+  background-color: var(--second-background);
+  border: 5px solid white;
+}
+
+.section-hobi h2,
+.section-skill h2 {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 50px;
+  flex-wrap: wrap;
+}
+
+.card-content {
+  border: 5px solid white;
+  border-radius: 40px;
+}
+
+.card-content:hover {
+  transform: scale(95%);
+  transition: 0.5s;
+}
+
+.card p {
+  text-align: center;
+}
+.card img {
+  width: 400px;
+  height: 270px;
+  padding: 10px;
+  border-radius: 40px;
+}
+/* HOBBY, SKILL END */
+
+/* LESSON LEARN START */
+.section-lesson {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  /* padding: 50px; */
+  background-color: var(--main-background);
+}
+
+.lesson-content {
+  text-align: center;
+}
+
+.lesson-content li {
+  font-size: 1.4rem;
+}
+/* LESSON LEARN END */
+
+/* SCAPING START */
+.section-scraping {
+  background-color: var(--main-background);
+  border: 5px solid white;
+  padding: 50px;
+  justify-content: center;
+  display: flex;
+}
+
+.section-scraping h2 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.section-scraping a {
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+.scraping-content {
+  max-width: 1200px; /* Atur lebar maksimum konten */
+  width: 100%; /* Pastikan konten mengikuti lebar maksimum */
+}
+/* CSS untuk memberikan warna pada baris dengan nomor ganjil */
+#news-table tbody tr:nth-child(odd) {
+  background-color: var(
+    --second-background
+  ); /* Warna latar belakang untuk baris ganjil */
+}
+
+.pagination {
+  font-size: 1.4rem;
+  margin-top: 10px;
+}
+
+/* SCAPING END */
+
+/* FOOTER START */
+footer {
+  border: 5px solid white;
+  padding: 10px;
+  background-color: var(--main-background);
+  text-align: center;
+  color: sandybrown;
+  font-size: 1.6rem;
+}
+
+footer span {
+  font-style: italic;
+  color: white;
+}
+
+.sosial-footer i {
+  font-size: 3.5rem;
+  color: white;
+}
+/* FOOTER END */
+
+/* hamburger menu */
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  height: 20px;
+  justify-content: space-between;
+  position: relative;
+  cursor: pointer;
+}
+
+.menu-toggle input {
+  position: absolute;
+  width: 40px;
+  height: 28px;
+  left: -5px;
+  top: -3px;
+  opacity: 0;
+  transition: all 0.5;
+  z-index: 2;
+}
+
+.menu-toggle span {
+  display: block;
+  width: 28px;
+  height: 3px;
+  background-color: rgb(234, 192, 255);
+  border-radius: 3px;
+  transition: all 0.5s;
+}
+
+/*x on hamburger menu*/
+.menu-toggle span:nth-child(2) {
+  transform-origin: 0 0;
+}
+
+.menu-toggle span:nth-child(4) {
+  transform-origin: 0 100%;
+}
+
+.menu-toggle input:checked ~ span:nth-child(2) {
+  transform: rotate(45deg) translate(-1px, -1px);
+}
+
+.menu-toggle input:checked ~ span:nth-child(4) {
+  transform: rotate(-45deg) translate(-1px, 0);
+}
+/* invis span ke 2 / child ke 3 */
+.menu-toggle input:checked ~ span:nth-child(3) {
+  transform: scale(0);
+}
+
+@media screen and (max-width: 768px) {
+  /* Adjust margin in main */
+  nav ul {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  /* Make navigation menu responsive */
+  nav ul {
+    position: absolute;
+    right: 0;
+    top: 50px;
+    width: 50%;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(64, 79, 122);
+    transform: translateX(100%);
+    transition: all 1s;
+    opacity: 0.8;
+  }
+
+  nav ul.menushow {
+    transform: translateX(0);
+  }
+
+  .menu-toggle {
+    display: flex;
+  }
+
+  section {
+    width: 100vh;
+    height: 100%;
+  }
+
+  .section-home {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
