@@ -1,8 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  color: white;
-  text-decoration: none;
   box-sizing: border-box;
 }
 
@@ -98,6 +96,11 @@ nav ul li a:hover {
   padding: 50px;
 }
 
+.logo h3 a {
+  color: white;
+  text-decoration: none;
+}
+
 .image img {
   width: 500px;
   border-radius: 50%;
@@ -183,8 +186,8 @@ nav ul li a:hover {
   text-align: center;
 }
 .card img {
-  width: 320px;
-  height: 230px;
+  width: 250px;
+  height: 180px;
   padding: 10px;
   border-radius: 40px;
 }
@@ -207,6 +210,7 @@ nav ul li a:hover {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .card-fitur {
