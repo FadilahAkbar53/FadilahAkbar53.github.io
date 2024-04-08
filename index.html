@@ -21,16 +21,14 @@
     <header>
       <nav>
         <div class="logo">
-          <img src="img/logo.jpg" alt="#" id="home">
-          <h3 id="home">Fadilah Akbar</h3>
+          <img src="img/logo.jpg" alt="#">
+          <h3><a href="#home">Fadilah Akbar</a></h3>
         </div>
         <ul>
-          <li><a href="#home">Home</a></li>
           <li><a href="#home">Profile </a></li>
           <li><a href="#motto">Motto Hidup</a></li>
-          <li><a href="#hobi">Hobi</a></li>
-          <li><a href="#skill">Skills</a></li>
-          <li><a href="#lesson">Lesson Learned</a></li>
+          <li><a href="#hobiskill">Hobi & Skill</a></li>
+          <li><a href="#project">Project</a></li>
           <li><a href="#scraping">Web Scraping</a></li>
         </ul>
         <div class="menu-toggle">
@@ -95,7 +93,7 @@
 
     <!-- SECTION HOBBY -->
     <section>
-      <div class="section-hobi" id="hobi">
+      <div class="section-hobi" id="hobiskill">
         <h2>Hobby</h2>
         <div class="card">
           <div class="card-content">
@@ -117,7 +115,7 @@
 
     <!-- SECTION SKILLS-->
     <section>
-      <div class="section-skill" id="skill">
+      <div class="section-skill" id="hobiskill">
         <h2>Kemampuan Teknis</h2>
         <div class="card">
           <div class="card-content">
@@ -141,6 +139,26 @@
     </section>
     <!-- SECTION SKILLS END -->
 
+    <!-- SECTION FITUR  -->
+    <section>
+      <div class="section-fitur">
+        <h2>Fitur Tambahan</h2>
+        <div class="fitur-content">
+          <div class="card-fitur">
+            <h2>Vidio</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/mtErTy2uZ-Q" frameborder="0" allowfullscreen></iframe>
+            <p>Vidio penurunan nama bagus JTK</p>
+          </div>
+          <div class="card-fitur">
+            <h2>Maps</h2>
+            <iframe id="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15844.54299884002!2d107.57171773382412!3d-6.87433395101501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e420abc30acf%3A0x10569255865460a5!2sPoliteknik%20Negeri%20Bandung!5e0!3m2!1sen!2sid!4v1709046122444!5m2!1sen!2sid" width="560" height="315" style="border: 0"></iframe>
+            <p>Kampus Politeknik Negeri Bandung</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SECTION FITUR END -->
+
     <!-- SECTION LESSON LEARN -->
     <section>
       <div class="section-lesson" id="lesson">
@@ -156,12 +174,56 @@
     </section>
     <!-- SECTION LESSON LEARN END-->
 
+    <!-- SECTION PROJECT -->
+    <section>
+      <div class="section-project" id="project">
+      <h2>Project Latest</h2>
+      <div class="slideshow-container">
+          <div class="mySlides-fade">
+            <div class="card-project">
+              <img src="img/webMoneyTracking.png" alt="Image 2">
+              <div class="project-content">
+                <h3>Web Money Tracking App</h3>
+                <p>Merupakan sebuah aplikasi berbasis website untuk tracker keuangan</p>
+                <a href="https://github.com/adriannprtm/money-tracking-kelompok-B6.git" target="_blank" class="button">Read Article</a>
+              </div>
+            </div>
+          </div>
+          <div class="mySlides-fade">
+            <div class="card-project">
+              <img src="img/pythonMoneyTracker.png" alt="Image 2">
+              <div class="project-content">
+                <h3>Money Tracking Python</h3>
+                <p>Sebuah Aplikasi money tracker berbasis terminal dengan menggunakan bahasa pemograman Python</p>
+                <a href="https://github.com/adriannprtm/money-tracker-python.git" target="_blank" class="button">Read Article</a>
+              </div>
+            </div>
+          </div><div class="mySlides-fade">
+            <div class="card-project">
+              <img src="img/scraping.png" alt="Image 2">
+              <div class="project-content">
+                <h3>Web Scraping Python</h3>
+                <p>Merupakan sebuah web scraping yang bersumber dari website Republika.co.id yang menampilkan berita terkini dan dilakukan menggunakan bahasa pemograman Python</p>
+                <a href="https://fadilahakbar53.github.io/#scraping" target="_blank" class="button">Read Article</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- tombol prev dan next -->
+        <div class="button-project">
+          <a class="prev" onclick="plusSlides(-1)">&#10094; Prev</a>
+          <a class="next" onclick="plusSlides(1)"> Next &#10095; </a>
+        </div>
+      </div>
+    </section>
+    <!-- SECTION PROJECT END-->
+
     <!-- SECTION WEB SCRAPING -->
     <section>
       <div class="section-scraping" id="scraping">
         <div class="scraping-content">
           <h2>Web Scraping</h2>
-          <p>Tabel dibawah ini merupakan hasil dari web scraping pada website <a href="https://www.republika.co.id/">Republika.co.id</a></p>
+          <p>Tabel dibawah ini merupakan hasil dari web scraping pada website <a href="https://www.republika.co.id/" target="_blank">Republika.co.id</a></p>
           <div class="pagination">
             <label for="rowsPerPage">Tampilkan: </label>
             <select id="rowsPerPage">
